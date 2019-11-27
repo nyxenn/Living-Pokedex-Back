@@ -4,3 +4,6 @@ node_modules
 .vscode
 package-lock.json
 dist
+src/constants/*
+pokemon.dump
+import - Copy.sql
