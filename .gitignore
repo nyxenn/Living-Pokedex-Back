@@ -4,6 +4,6 @@ node_modules
 .vscode
 package-lock.json
 dist
-src/constants/*
+src/constants/pokeApi.constants.ts
 pokemon.dump
 import - Copy.sql
