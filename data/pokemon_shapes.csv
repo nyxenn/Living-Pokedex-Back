@@ -1,0 +1,15 @@
+id,identifier,name,awesome_name,description
+1,ball,Ball,Pomaceous,Pokémon consisting of only a head
+2,squiggle,Squiggle,Caudal,Pokémon with serpentine bodies
+3,fish,Fish,Ichthyic,Pokémon with fins
+4,arms,Arms,Brachial,Pokémon consisting of a head and arms
+5,blob,Blob,Alvine,Pokémon consisting of a head and a base
+6,upright,Upright,Sciurine,"Pokémon with a bipedal, tailed form"
+7,legs,Legs,Crural,Pokémon consisting of a head and legs
+8,quadruped,Quadruped,Mensal,Pokémon with a quadruped body
+9,wings,Wings,Alar,Pokémon with a single pair of wings
+10,tentacles,Tentacles,Cilial,Pokémon with tentacles or a multiped body
+11,heads,Heads,Polycephalic,Pokémon consisting of multiple bodies
+12,humanoid,Humanoid,Anthropomorphic,"Pokémon with a bipedal, tailless form"
+13,bug-wings,Bug wings,Lepidopterous,Pokémon with two or more pairs of wings
+14,armor,Armor,Chitinous,Pokémon with an insectoid body

@@ -466,139 +466,139 @@ CREATE TABLE types(
 
 /* Copy data from .csv files to tables */
 COPY abilities
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\abilities.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\abilities.csv' DELIMITER ',' CSV HEADER;
 
 COPY ability_flavor_text
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\ability_flavor_text.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\ability_flavor_text.csv' DELIMITER ',' CSV HEADER;
 
 COPY egg_groups
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\egg_groups.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\egg_groups.csv' DELIMITER ',' CSV HEADER;
 
 COPY encounters
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\encounters.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\encounters.csv' DELIMITER ',' CSV HEADER;
 
 COPY encounter_slots
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\encounter_slots.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\encounter_slots.csv' DELIMITER ',' CSV HEADER;
 
 COPY encounter_condition_values
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\encounter_condition_values.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\encounter_condition_values.csv' DELIMITER ',' CSV HEADER;
 
 COPY encounter_condition_value_map
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\encounter_condition_value_map.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\encounter_condition_value_map.csv' DELIMITER ',' CSV HEADER;
 
 COPY encounter_methods
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\encounter_methods.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\encounter_methods.csv' DELIMITER ',' CSV HEADER;
 
 COPY evolution_chains
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\evolution_chains.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\evolution_chains.csv' DELIMITER ',' CSV HEADER;
 
 COPY evolution_triggers
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\evolution_triggers.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\evolution_triggers.csv' DELIMITER ',' CSV HEADER;
 
 COPY experience
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\experience.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\experience.csv' DELIMITER ',' CSV HEADER;
 
 COPY genders
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\genders.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\genders.csv' DELIMITER ',' CSV HEADER;
 
 COPY generations
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\generations.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\generations.csv' DELIMITER ',' CSV HEADER;
 
 COPY growth_rates
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\growth_rates.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\growth_rates.csv' DELIMITER ',' CSV HEADER;
 
 COPY item_categories
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\item_categories.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\item_categories.csv' DELIMITER ',' CSV HEADER;
 
 COPY item_pockets
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\item_pockets.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\item_pockets.csv' DELIMITER ',' CSV HEADER;
 
 COPY items
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\items.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\items.csv' DELIMITER ',' CSV HEADER;
 
 COPY locations
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\locations.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\locations.csv' DELIMITER ',' CSV HEADER;
 
 COPY location_areas
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\location_areas.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\location_areas.csv' DELIMITER ',' CSV HEADER;
 
 COPY location_area_encounter_rates
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\location_area_encounter_rates.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\location_area_encounter_rates.csv' DELIMITER ',' CSV HEADER;
 
 COPY machines
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\machines.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\machines.csv' DELIMITER ',' CSV HEADER;
 
 COPY moves
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\moves.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\moves.csv' DELIMITER ',' CSV HEADER;
 
 COPY move_damage_classes
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\move_damage_classes.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\move_damage_classes.csv' DELIMITER ',' CSV HEADER;
 
 COPY move_effects
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\move_effects.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\move_effects.csv' DELIMITER ',' CSV HEADER;
 
 COPY move_flavor_text
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\move_flavor_text.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\move_flavor_text.csv' DELIMITER ',' CSV HEADER;
 
 COPY move_targets
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\move_targets.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\move_targets.csv' DELIMITER ',' CSV HEADER;
 
 COPY natures
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\natures.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\natures.csv' DELIMITER ',' CSV HEADER;
 
 COPY pokemon
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\pokemon.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\pokemon.csv' DELIMITER ',' CSV HEADER;
 
 COPY pokemon_abilities
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\pokemon_abilities.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\pokemon_abilities.csv' DELIMITER ',' CSV HEADER;
 
 COPY pokemon_egg_groups
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\pokemon_egg_groups.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\pokemon_egg_groups.csv' DELIMITER ',' CSV HEADER;
 
 COPY pokemon_evolution
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\pokemon_evolution.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\pokemon_evolution.csv' DELIMITER ',' CSV HEADER;
 
 COPY pokemon_items
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\pokemon_items.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\pokemon_items.csv' DELIMITER ',' CSV HEADER;
 
 COPY pokemon_move_methods
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\pokemon_move_methods.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\pokemon_move_methods.csv' DELIMITER ',' CSV HEADER;
 
 COPY pokemon_moves
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\pokemon_moves.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\pokemon_moves.csv' DELIMITER ',' CSV HEADER;
 
 COPY pokemon_shapes
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\pokemon_shapes.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\pokemon_shapes.csv' DELIMITER ',' CSV HEADER;
 
 COPY pokemon_species
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\pokemon_species.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\pokemon_species.csv' DELIMITER ',' CSV HEADER;
 
 COPY pokemon_species_flavor_text
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\pokemon_species_flavor_text.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\pokemon_species_flavor_text.csv' DELIMITER ',' CSV HEADER;
 
 COPY pokemon_stats
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\pokemon_stats.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\pokemon_stats.csv' DELIMITER ',' CSV HEADER;
 
 COPY pokemon_types
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\pokemon_types.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\pokemon_types.csv' DELIMITER ',' CSV HEADER;
 
 COPY regions
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\regions.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\regions.csv' DELIMITER ',' CSV HEADER;
 
 COPY stats
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\stats.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\stats.csv' DELIMITER ',' CSV HEADER;
 
 COPY type_efficacy
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\type_efficacy.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\type_efficacy.csv' DELIMITER ',' CSV HEADER;
 
 COPY types
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\types.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\types.csv' DELIMITER ',' CSV HEADER;
 
 COPY version_groups
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\version_groups.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\version_groups.csv' DELIMITER ',' CSV HEADER;
 
 COPY versions
-FROM 'D:\Downloads\pokeapi-master\pokeapi-master\data\v2\csv\use\versions.csv' DELIMITER ',' CSV HEADER;
+FROM '.\data\versions.csv' DELIMITER ',' CSV HEADER;
 /*		*/
 
 

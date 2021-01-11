@@ -1,0 +1,21 @@
+id,encounter_condition,description,identifier,is_default
+1,swarm,During a swarm,swarm-yes,0
+2,swarm,Not during a swarm,swarm-no,1
+3,time,In the morning,time-morning,0
+4,time,During the day,time-day,1
+5,time,At night,time-night,0
+6,radar,Using PokéRadar,radar-on,0
+7,radar,Not using PokéRadar,radar-off,1
+8,slot2,No game in slot 2,slot2-none,1
+9,slot2,Ruby in slot 2,slot2-ruby,0
+10,slot2,Sapphire in slot 2,slot2-sapphire,0
+11,slot2,Emerald in slot 2,slot2-emerald,0
+12,slot2,FireRed in slot 2,slot2-firered,0
+13,slot2,LeafGreen in slot 2,slot2-leafgreen,0
+14,radio,Radio off,radio-off,1
+15,radio,Hoenn radio,radio-hoenn,0
+16,radio,Sinnoh radio,radio-sinnoh,0
+17,season,During Spring,season-spring,0
+18,season,During Summer,season-summer,0
+19,season,During Autumn,season-autumn,0
+20,season,During Winter,season-winter,0

@@ -1,0 +1,9 @@
+id,damage_class_id,identifier,name,is_battle_only
+1,,hp,HP,0
+2,2,attack,Attack,0
+3,2,defense,Defense,0
+4,3,special-attack,Special Attack,0
+5,3,special-defense,Special Defense,0
+6,,speed,Speed,0
+7,,accuracy,Accuracy,1
+8,,evasion,Evasion,1
