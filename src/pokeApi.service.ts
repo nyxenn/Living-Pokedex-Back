@@ -20,10 +20,10 @@ import Types from "./models/types.model";
 import PokemonStats from "./models/pokemon_stats.model";
 import { PokemonSpeciesFlavorText } from "./models/pokemon_species_flavor_text.model";
 import LocationAreas from "./models/location_areas.model";
-import EncounterSlots from "./models/encounters_slots.model";
+import EncounterSlots from "./models/encounter_slots.model";
 import VersionGroups from "./models/version_groups.model";
 import Versions from "./models/versions.model";
-import EncounterMethods from "./models/encounters_methods.model";
+import EncounterMethods from "./models/encounter_methods.model";
 import Encounters from "./models/encounters.model";
 import { Op } from "sequelize";
 

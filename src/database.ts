@@ -16,6 +16,7 @@ class Database {
             host: DB_HOST,
             dialect: DB_DIALECT,
             models: [__dirname + '/models/*.model.ts'],
+            modelMatch: (filename, member) => { return filename.substring(0, filename.indexOf('.model')) === this.toSnakeCase(member); },
             logging: false,
 
             pool: {
@@ -28,6 +29,13 @@ class Database {
                 timestamps: false
             }
         });
+    }
+
+    private toSnakeCase(str: string) {
+        return str && str
+                        .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
+                        ?.map(x => x.toLowerCase())
+                        .join('_');
     }
 
 }

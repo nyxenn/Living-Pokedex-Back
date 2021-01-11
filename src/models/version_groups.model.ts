@@ -1,5 +1,5 @@
 import { Table, Model, PrimaryKey, AutoIncrement, AllowNull, Column, DataType, ForeignKey, HasMany, BelongsTo } from "sequelize-typescript";
-import EncounterSlots from "./encounters_slots.model";
+import EncounterSlots from "./encounter_slots.model";
 import Versions from "./versions.model";
 
 @Table({ timestamps: false, tableName:'version_groups' })

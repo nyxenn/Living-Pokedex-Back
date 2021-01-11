@@ -1,5 +1,5 @@
 import { Table, Model, PrimaryKey, AutoIncrement, AllowNull, Column, DataType, ForeignKey, BelongsTo } from "sequelize-typescript";
-import EncounterSlots from "./encounters_slots.model";
+import EncounterSlots from "./encounter_slots.model";
 import Pokemon from "./pokemon.model";
 import Versions from "./versions.model";
 import LocationAreas from "./location_areas.model";

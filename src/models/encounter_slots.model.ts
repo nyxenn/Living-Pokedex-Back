@@ -1,6 +1,6 @@
 import { Table, Model, PrimaryKey, AutoIncrement, AllowNull, Column, DataType, ForeignKey, HasMany, BelongsTo } from "sequelize-typescript";
 import Encounters from "./encounters.model";
-import EncounterMethods from "./encounters_methods.model";
+import EncounterMethods from "./encounter_methods.model";
 import VersionGroups from "./version_groups.model";
 
 @Table({ timestamps: false, tableName:'encounter_slots' })

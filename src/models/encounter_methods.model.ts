@@ -1,5 +1,5 @@
 import { Table, Model, PrimaryKey, AutoIncrement, AllowNull, Column, DataType, HasMany } from "sequelize-typescript";
-import EncounterSlots from "./encounters_slots.model";
+import EncounterSlots from "./encounter_slots.model";
 
 @Table({ timestamps: false, tableName:'encounter_methods' })
 export class EncounterMethods extends Model<EncounterMethods> {
