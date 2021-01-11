@@ -23,10 +23,26 @@ export class UserService {
     public async addNewUser(req: Request, res: Response) {
         req.body.username = req.body.username.toLowerCase();
         req.body.hash = bcrypt.hashSync(req.body.hash, saltRounds); // Hash plaintext password
-        console.log(req.body);
-        User.create(req.body)
-            .then((user: User) => res.status(200).json(user))
-            .catch(err => res.send(err)); // Create and user object
+        req.body.caught = [];
+
+        let userExists = false;
+
+        await User.findOne({ where: { username: req.body.username }})
+            .then((userDoc) => {
+                if (userDoc) userExists = true;
+            });
+
+        if (userExists) {
+            console.log("Register error: User " + req.body.username + " already exists.");
+            res.status(409).send("User already exists. Please choose a different username.");
+            return;
+        } else {
+            User.create(req.body)
+                .then((user: User) => res.status(200).json(user))
+                .catch(err => res.send(err)); // Create and user object
+        }
+
+        
     }
 
     // Update general user information such as caught pokemon and display name
